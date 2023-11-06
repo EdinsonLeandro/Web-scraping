@@ -1,0 +1,8 @@
+.vscode
+trading/.vscode
+trading/Data
+trading/Credentials
+trading/trading/.vscode
+trading/trading/__pycache__
+trading/trading/spiders/__pycache__
+trading/trading/spiders/hotforex_stats.py
