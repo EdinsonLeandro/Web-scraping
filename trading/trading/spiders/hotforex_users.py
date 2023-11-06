@@ -131,7 +131,6 @@ class HotforexUsersSpider(scrapy.Spider):
             for profile in self.driver.find_elements(By.XPATH, ".//div[@id='user-settings-text']"):
                 # Get website
                 website = profile.find_element(By.XPATH, ".//a").get_attribute("href")
-                website = f"https://my.hfm.com{website}"
 
                 yield {'Provider Profile': website}
             
