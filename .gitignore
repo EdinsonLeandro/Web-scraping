@@ -1,4 +1,5 @@
 .vscode
+drivers/chromedriver.exe
 trading/.vscode
 trading/Data
 trading/Credentials

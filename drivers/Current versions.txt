@@ -1,3 +1,5 @@
+Download chromedriver and paste the file in this folder
+
 chromedriver
 Chrome Version 119.0.6045.106
 https://chromedriver.chromium.org/downloads
