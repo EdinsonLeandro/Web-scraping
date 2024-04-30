@@ -1,7 +1,7 @@
 Download chromedriver and paste the file in this folder
 
 chromedriver
-Chrome Version 119.0.6045.106
+Chrome Version 113.0.5672.0
 https://chromedriver.chromium.org/downloads
 
 https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/

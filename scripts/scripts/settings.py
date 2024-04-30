@@ -41,7 +41,7 @@ FEEDS = {'Name.csv': {'format': 'csv', 'encoding': 'utf-8'}}
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-    "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    "User-Agent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
 }
 
 

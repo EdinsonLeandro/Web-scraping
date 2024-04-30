@@ -1,9 +1,10 @@
 .vscode
 drivers/chromedriver.exe
-trading/.vscode
-trading/Data
-trading/Credentials
-trading/trading/.vscode
-trading/trading/__pycache__
-trading/trading/spiders/__pycache__
-trading/trading/spiders/hotforex_stats.py
+drivers/chrome-win64_113
+scripts/.vscode
+scripts/__pycache__
+scripts/Data
+scripts/scripts/.vscode
+scripts/scripts/__pycache__
+scripts/scripts/spiders/__pycache__
+scripts/scripts/spiders/hotforex_stats.py
