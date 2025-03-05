@@ -1,6 +1,8 @@
 .vscode
 drivers/chromedriver.exe
 drivers/chrome-win64_113
+PrivateKeys
+scripts/Test_codes.ipynb
 scripts/.vscode
 scripts/__pycache__
 scripts/Data

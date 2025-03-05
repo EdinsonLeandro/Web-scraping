@@ -1,4 +1,4 @@
-# Scrapy settings for trading project
+# Scrapy settings for scripts project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'trading'
+BOT_NAME = 'scripts'
 
-SPIDER_MODULES = ['trading.spiders']
-NEWSPIDER_MODULE = 'trading.spiders'
+SPIDER_MODULES = ['scripts.spiders']
+NEWSPIDER_MODULE = 'scripts.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'trading (+http://www.yourdomain.com)'
+#USER_AGENT = 'scripts (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -48,13 +48,13 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'trading.middlewares.TradingSpiderMiddleware': 543,
+#    'scripts.middlewares.ScriptsSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'trading.middlewares.TradingDownloaderMiddleware': 543,
+#    'scripts.middlewares.ScriptsDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -66,7 +66,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'trading.pipelines.TradingPipeline': 300,
+#    'scripts.pipelines.ScriptsPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
